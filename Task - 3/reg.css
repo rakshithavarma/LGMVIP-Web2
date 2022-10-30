@@ -1,0 +1,124 @@
+.main-head {
+    color: black;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZWbGv8tEOgZcxa1UXDUfXTBDYXGPL_vu-0w&usqp=CAU');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 75px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+}
+
+.sec-head {
+    text-align: center;
+    color: whitesmoke;
+    background-color: limegreen;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    height: 100%;
+}
+
+.text {
+    margin-left: 67px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.emailid {
+    margin-left: 67px;
+    font-size: 18px;
+    border-radius: 10px
+}
+
+.Website {
+    margin-left: 44px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.ImageLink {
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.Skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+
+}
+
+.courses {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+#Java {
+    margin-left: 40px;
+}
+
+#HTML {
+    margin-left: 40px;
+}
+
+#CSS {
+    margin-left: 40px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#button2 {
+    margin-left: 25px;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 8px;
+}
+
+.fem {
+    margin-left: 60px;
+}
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.ref{
+    display:flex;
+    flex-direction:row;
+    justify-content: end;
+}
+
+/* mobile view */
+@media screen and (max-width: 375px){
+    .main-sec{
+        display: block;
+        padding: 20px !important;
+    }
+}
+
+@media (min-width: 376px) and (max-width:414px){
+    .main-sec{
+        display: block;
+        padding: 20px !important;
+    }
+}
+
+/* tab view */
+
+
+@media (min-width: 415px) and (max-width:820px){
+    .main-sec{
+        padding:30px;
+    }
+}
